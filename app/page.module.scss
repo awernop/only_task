@@ -1,0 +1,63 @@
+.title{
+    display: flex;
+    align-items: center;
+    gap: 78px;
+    
+    span{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 120%;
+        color: #42567a;
+        font-family: 'PT Sans';
+        max-width: 353px;
+        user-select: none;
+    }
+}
+
+.circle{
+    position:absolute;
+    top: 22%;
+    left: 36.5%;
+
+    &__container{
+        margin: 5% 10%;
+    }
+
+    &__figure{
+        border: solid 1px #42567A;
+        width: 536px;
+        height: 530px;
+        border-radius: 100%;
+        opacity: 0.2;
+    }
+}
+
+.years{
+    display: flex;
+    align-items: center;
+    gap: 124px;
+    position: absolute;
+    left: 24%;
+
+    &__first{
+        font-family: 'PT Sans';
+        font-weight: 700;
+        font-size: 200px;
+        line-height: 80%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #5d5fef;
+        user-select: none;
+    }
+
+    &__second{
+        font-family: 'PT Sans';
+        font-weight: 700;
+        font-size: 200px;
+        line-height: 80%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #EF5DA8;
+        user-select: none;
+    }
+}
