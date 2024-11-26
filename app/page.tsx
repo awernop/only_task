@@ -53,22 +53,48 @@ export default function Home() {
         </div>
         <div className={style.circle}>
           <div className={style.circle__figure}>
-          <svg
-            width="536"
-            height="530"
-            viewBox="0 0 536 530"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <circle cx="533" cy="265" r="3" fill="#42567A"/>
-            <circle cx="138" cy="34" r="3" fill="#42567A" />
-            <circle cx="397" cy="34" r="3" fill="#42567A" />
-            <circle cx="402" cy="492" r="3" fill="#42567A" />
-            <circle cx="126" cy="489" r="3" fill="#42567A" />
-            <circle cx="3" cy="265" r="3" fill="#42567A" />
-          </svg>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <svg
+              width="536"
+              height="530"
+              viewBox="0 0 536 530"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="533" cy="265" r="3" fill="#42567A" />
+              <circle cx="138" cy="34" r="3" fill="#42567A" />
+              <circle cx="397" cy="34" r="3" fill="#42567A" />
+              <circle cx="402" cy="492" r="3" fill="#42567A" />
+              <circle cx="126" cy="489" r="3" fill="#42567A" />
+              <circle cx="3" cy="265" r="3" fill="#42567A" />
+            </svg>
           </div>
-          
+        </div>
+      </div>
+      <div>
+        <span>06/06</span>
+        <div>
+          <button>
+            <svg
+              width="10"
+              height="14"
+              viewBox="0 0 10 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.49988 0.750001L2.24988 7L8.49988 13.25"
+                stroke="#42567A"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
+          <button></button>
         </div>
       </div>
     </div>
